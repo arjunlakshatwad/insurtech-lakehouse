@@ -1,0 +1,7 @@
+version: 2
+sources:
+  - name: pg_bronze
+    catalog: "{{ target.catalog }}"
+    schema: bronze
+    tables:
+      - name: pg_customers

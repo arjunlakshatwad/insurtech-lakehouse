@@ -1,0 +1,14 @@
+version: 2
+sources:
+  - name: oracle_bronze
+    catalog: "{{ target.catalog }}"
+    schema: bronze
+    tables:
+      - name: oracle_customers
+        loaded_at_field: _ingested_at
+        freshness:
+          warn_after: {count: 24, period: hour}
+          error_after: {count: 48, period: hour}
+      - name: oracle_policies
+      - name: oracle_claims
+      - name: oracle_gl_transactions

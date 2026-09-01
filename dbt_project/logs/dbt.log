@@ -1,0 +1,192 @@
+[0m16:58:01.902491 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000259E5BA9AC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000259E5AF8FE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000259E5916900>]}
+
+
+============================== 16:58:02.027234 | 89cd85ca-60b9-4d80-ba04-c2130d6bc847 ==============================
+[0m16:58:02.027234 [info ] [MainThread]: Running with dbt=1.12.0
+[0m16:58:02.030405 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\ArjunKailasLakshatwa\\.dbt', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt init migration_demo', 'log_path': 'logs'}
+[0m16:58:02.330660 [debug] [MainThread]: Starter project path: C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\dbt\include\starter_project
+[0m16:58:02.554968 [info ] [MainThread]: Setting up your profile.
+[0m16:58:55.000016 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m16:58:55.003016 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m16:58:55.005018 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m17:05:43.652405 [info ] [MainThread]: Profile migration_demo written to C:\Users\ArjunKailasLakshatwa\.dbt\profiles.yml using target's profile_template.yml and your supplied values.
+[0m17:05:43.678745 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m17:05:43.680774 [info ] [MainThread]: dbt version: 1.12.0
+[0m17:05:43.680774 [info ] [MainThread]: python version: 3.12.7
+[0m17:05:43.681769 [info ] [MainThread]: python path: C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Scripts\python.exe
+[0m17:05:43.682770 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m17:05:43.781608 [info ] [MainThread]: Using profiles dir at C:\Users\ArjunKailasLakshatwa\.dbt
+[0m17:05:43.783604 [info ] [MainThread]: Using profiles.yml file at C:\Users\ArjunKailasLakshatwa\.dbt\profiles.yml
+[0m17:05:43.783604 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\dbt_project\migration_demo\dbt_project.yml
+[0m17:05:43.784646 [info ] [MainThread]: adapter type: databricks
+[0m17:05:43.785602 [info ] [MainThread]: adapter version: 1.12.4
+[0m17:05:44.001059 [info ] [MainThread]: Configuration:
+[0m17:05:44.002061 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:05:44.003148 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m17:05:44.004144 [info ] [MainThread]: Required dependencies:
+[0m17:05:44.005146 [debug] [MainThread]: Executing "git --help"
+[0m17:05:44.301264 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:05:44.302278 [debug] [MainThread]: STDERR: "b''"
+[0m17:05:44.302278 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:05:44.303274 [info ] [MainThread]: Connection:
+[0m17:05:44.304273 [info ] [MainThread]:   host: test
+[0m17:05:44.304273 [info ] [MainThread]:   http_path: test
+[0m17:05:44.304273 [info ] [MainThread]:   catalog: test
+[0m17:05:44.305273 [info ] [MainThread]:   schema: test
+[0m17:05:44.305273 [info ] [MainThread]: Registered adapter: databricks=1.12.4
+[0m17:05:46.231475 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(session-id=None, name=debug) - Creating connection
+[0m17:05:46.231475 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m17:05:55.179514 [info ] [MainThread]: Databricks adapter: SPOG discovery probe to 'https://test/.well-known/databricks-config' failed after 3 attempts (last error: HTTPSConnectionPool(host='test', port=443): Max retries exceeded with url: /.well-known/databricks-config (Caused by NameResolutionError("HTTPSConnection(host='test', port=443): Failed to resolve 'test' ([Errno 11001] getaddrinfo failed)"))). Proceeding as a non-SPOG host. If test is a SPOG (unified) workspace, routing errors may follow; verify network reachability to /.well-known/databricks-config.
+[0m17:05:55.200766 [info ] [MainThread]: Databricks adapter:   SPOG host (host_type=None): no
+[0m17:05:55.201776 [info ] [MainThread]: Databricks adapter:   workspace_id (from ?o= in http_path): None
+[0m17:05:55.203029 [info ] [MainThread]: Databricks adapter:   databricks-sql-connector version: 4.4.0 (supported)
+[0m17:05:55.203029 [info ] [MainThread]: Databricks adapter:   databricks-sdk version: 0.117.0 (supported)
+[0m17:05:55.204167 [debug] [MainThread]: Using databricks connection "debug"
+[0m17:05:55.205285 [debug] [MainThread]: On debug: select 1 as id
+[0m17:05:55.205285 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:24:33.189751 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+
+[0m17:24:33.482866 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\urllib3\connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 976, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1106, in _validate_conn
+    conn.connect()
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\urllib3\connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\urllib3\connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='test', port=443): Failed to resolve 'test' ([Errno 11001] getaddrinfo failed)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\dbt\cli\requires.py", line 190, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\dbt\cli\requires.py", line 136, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\dbt\cli\main.py", line 503, in init
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\dbt\task\init.py", line 361, in run
+    debug_success = self._run_debug()
+                    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\dbt\task\init.py", line 296, in _run_debug
+    return debug_task.run()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\dbt\task\debug.py", line 144, in run
+    connection_status = self.test_connection()
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\dbt\task\debug.py", line 465, in test_connection
+    connection_result = self.attempt_connection(self.profile)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\dbt\task\debug.py", line 443, in attempt_connection
+    adapter.debug_query()
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\dbt\adapters\databricks\impl.py", line 1179, in debug_query
+    self.execute("select 1 as id")
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\dbt\adapters\databricks\impl.py", line 520, in execute
+    return super().execute(sql=sql, auto_begin=auto_begin, fetch=fetch, limit=limit)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\dbt_common\record.py", line 538, in record_replay_wrapper
+    return func_to_record(*call_args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\dbt\adapters\base\impl.py", line 523, in execute
+    return self.connections.execute(sql=sql, auto_begin=auto_begin, fetch=fetch, limit=limit)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\dbt\adapters\databricks\connections.py", line 384, in execute
+    _, cursor = self.add_query(sql, auto_begin)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\dbt\adapters\databricks\connections.py", line 356, in add_query
+    handle: DatabricksHandle = connection.handle
+                               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\dbt\adapters\contracts\connection.py", line 96, in handle
+    self._handle.resolve(self)
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\dbt\adapters\contracts\connection.py", line 120, in resolve
+    return self.opener(connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\dbt\adapters\databricks\connections.py", line 536, in open
+    return cls.retry_connection(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\dbt\adapters\base\connections.py", line 237, in retry_connection
+    connection.handle = connect()
+                        ^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\dbt\adapters\databricks\connections.py", line 511, in connect
+    conn = DatabricksHandle.from_connection_args(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\dbt\adapters\databricks\handle.py", line 280, in from_connection_args
+    conn = dbsql.connect(**conn_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\databricks\sql\__init__.py", line 93, in connect
+    return Connection(server_hostname, http_path, access_token, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\databricks\sql\client.py", line 332, in __init__
+    self.session.open()
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\databricks\sql\session.py", line 302, in open
+    self._session_id = self.backend.open_session(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\databricks\sql\backend\thrift_backend.py", line 603, in open_session
+    response = self.make_request(self._client.OpenSession, open_session_req)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\databricks\sql\backend\thrift_backend.py", line 516, in make_request
+    response_or_error_info = attempt_request(attempt)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\databricks\sql\backend\thrift_backend.py", line 422, in attempt_request
+    response = method(request)
+               ^^^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\databricks\sql\thrift_api\TCLIService\TCLIService.py", line 204, in OpenSession
+    self.send_OpenSession(req)
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\databricks\sql\thrift_api\TCLIService\TCLIService.py", line 213, in send_OpenSession
+    self._oprot.trans.flush()
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\databricks\sql\auth\thrift_http_client.py", line 195, in flush
+    self.__resp = self.__pool.request(
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  [Previous line repeated 13 more times]
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\urllib3\connectionpool.py", line 845, in urlopen
+    retries.sleep()
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\urllib3\util\retry.py", line 387, in sleep
+    self._sleep_backoff()
+  File "C:\Users\ArjunKailasLakshatwa\insurtech-lakehouse-consolidation\.venv\Lib\site-packages\urllib3\util\retry.py", line 371, in _sleep_backoff
+    time.sleep(backoff)
+KeyboardInterrupt
+
+[0m17:24:33.488390 [debug] [MainThread]: Command `dbt init` failed at 17:24:33.488390 after 1592.08 seconds
+[0m17:24:33.489394 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000259E5EF7AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000259FADD5550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000259FADF9DC0>]}
+[0m17:24:33.490394 [debug] [MainThread]: Flushing usage events
+[0m17:24:36.047601 [debug] [MainThread]: An error was encountered while trying to flush usage events

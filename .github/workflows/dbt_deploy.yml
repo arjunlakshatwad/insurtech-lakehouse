@@ -25,7 +25,7 @@ jobs:
         run: dbt deps
         working-directory: ./dbt_project/migration_demo
       - name: Run tests (QA target)
-        run: dbt build --target qa
+        run: dbt build --target qa --profiles-dir .
         working-directory: ./dbt_project/migration_demo
 
   dbt-deploy-prod:
@@ -43,5 +43,5 @@ jobs:
       - name: Deploy to Prod
         run: |
           dbt deps
-          dbt run --target prod
+          dbt run --target prod --profiles-dir .
         working-directory: ./dbt_project/migration_demo
